@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <section class="section-menu--desktop" id="menu-desktop">
+                <img src="assets/images/discord-logo-white.svg" alt="Logo Discord" id="logo-discord">
+                <div class="right-align" id="right-menu">
+                    <!--Menu Itens-->
+                    <nav>
+                        <li>Download</li>
+                        <li>Nitro</li>
+                        <li>Discover</li>
+                        <li>Safety</li>
+                        <li>Support</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                    </nav>
+                </div>
+                <button class="login-desktop">Login</button>
+            </section>
+         <!--------------------Menu Mobile-------------->
+            <section class="section-menu--mediaquerie" id="menu-mobile">
+                <img src="assets/images/discord-logo-white.svg" alt="Logo Discord" id="logo-discord-mobile">
+                <div class="menu-right-align" id="right-menu-mobile">
+
+
+                    <!----------Ícone Menu Mobile--------------->
+                    <button id="menuToggle" onclick="expandirMenu()" name="Menu">
+                        <picture>
+                            <img class="material-symbols-outlined" src="./assets/images/menu_white_24dp.svg" alt="menu" id="menuHamburguer">
+                        </picture>
+                    </button>
+
+                    <!-------Menu Itens------------->
+                    <div class="menu-rightbar-container" id="menu" onclick="recolherMenu()">
+                        <div class="items-sidebar">
+                            <div class="top-sidebar">
+                                <img src="assets/images/logo-discord-black.svg" alt="logo-Discord" id="logo-menu-right">
+                                <img class="material-symbols-outlined" src="assets/images/close_black_24dp.svg" alt="fechar" id="close">
+                            </div>
+                            <div class="space-bar"></div>
+                            <nav>
+                                <a>Nitro</a>
+                                <a>Download</a>
+                                <a>Discover</a>
+                                <a>Safety</a>
+                                <a>Support</a>
+                                <a>Blog</a>
+                                <a>Careers</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <button class="login-mobile">Login</button>
+                </div>
+            </section>    
+        </div>
+        <div class="hero-container">
+            <div class="hero-body">
+                <h1>IMAGINE UM LUGAR...</h1>
+                <div class="hero-text">
+                    …onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os dias e socializar com mais frequência.
+                </div>
+                <div class="hero-button">
+                        <button class="btn-windows"><img src="assets/images/Download.png" alt=""> Baixar para Windows</button>
+                        <button class="btn-browser">Abra o Discord no seu navegador</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/waves-background.svg" alt="fundo de nuvens azuis" class="img-clouds">
+            <div class="hero-image-container">
+                <img src="assets/images/left-background.svg" alt=" imagem de fundo lado esquerdo" class="left-background">
+                <img src="assets/images/right-background.svg" alt="fundo do lado direito" class="right-background">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="section-container">
+            <img src="assets/images/Section-1-Image.png" alt="Imagem de Chat">
+            <div class="section-text">
+                <h2>Crie um espaço controlado por convite onde você se sinta em casa</h2>
+                <p>Os servidores Discord são organizados em canais com assuntos para vocês colaborarem, compartilharem ou simplesmente falarem do dia sem entupir um chat geral.</p>
+            </div>
+        </div>
+    </section>
+    <section  id="second-section-container">
+        <div class="section-container second-section">
+            <img src="assets/images/Section-2-Image.png" alt="Imagem de Chat com microphone ligado">
+            <div class="section-text">
+                <h2>Aqui é fácil se encontrar</h2>
+                <p>Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente, sem nem ter que fazer a chamada.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-container">
+            <img src="assets/images/Section-3-Image.png" alt="Imagem sobre perfil no Discord">
+            <div class="section-text">
+                <h2>Para poucos e para muitos</h2>
+                <p>Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes especiais aos membros, monte canais privados e muito mais.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="fifth-section-container">
+        <div class="section-container" id="fifth-section">
+            <div class="section-text">
+                <h3>TECNOLOGIA DE CONEXÃO CONFIÁVEL</h3>
+                <p>Voz e vídeo de baixa latência, para você conversar como se estivesse na mesma sala. Dê um joinha por vídeo, veja amigos transmitirem a jogatina do dia ou junte uma galera pra desenhar na tela compartilhada.</p>
+            </div>
+            <img src="assets/images/last-section-image.svg" alt="Chamada de vídeo no Discord">
+        </div>
+    </section>
+    <section class="last-section-container">
+        <div class="last-section-content">
+            <div class="sparkles">
+                <img src="assets/images/vamos-conversar.svg" alt="">
+            </div>
+            <h4>Vamos começar sua jornada?</h4>
+            <div class="lets-talk">
+                <button class="btn-windows"><img src="assets/images/file-download.svg" alt=""> Baixar para Windows</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="assets/images/discord-logo-white.svg" alt="Logo Discord">
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
