@@ -433,13 +433,10 @@
         max-width: 100%;
         border-radius: 28px;
         padding: 16px 10px;
+        margin-bottom: 130px;
         z-index: 2;
     }
 
-    div.hero-image {
-        flex-direction: column; 
-        position: absolute; 
-    }
 
     header .img-clouds {
         display: none;
@@ -447,15 +444,12 @@
 
     div.hero-image-container {
         position: relative;
-        width: 100%;
+        max-width: 100%;
     }
 
     div.hero-image-container .left-background {
-        display: flex;
-        position: absolute;
         bottom: 0;
         left: -13%;
-        padding-top: 500px;
     }
 
     div.hero-image-container .right-background {
